@@ -16,12 +16,5 @@ window.increaseCounter = function increaseCounter()
 	document.getElementById('screen').innerHTML = "The counter value is "+counter;
 }
 
-//Creamos una función global (window.)
-window.decreaseCounter = () => {
-//Decrementamos el contador.
-counter--;
-//Referenciamos el elemento y cambiamos su contenido(.innerHTML=) actualizando el contador con un texto fijo.
-document.querySelector('#screen').innerHTML = "The counter value is "+counter;
-}
-/*myButtonDecrease.addEventListener('click', decreaseCounter);*///No es necesario si ya uso el onclick en html.
+// Your code here
 
